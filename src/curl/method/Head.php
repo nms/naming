@@ -6,7 +6,7 @@ use nms\naming\curl\Curler;
 
 class Head extends Curler
 {
-    private $options = [
+    public $options = [
         CURLOPT_NOBODY => true,
         CURLOPT_CONNECTTIMEOUT => 10,
         CURLOPT_TIMEOUT => 10,
