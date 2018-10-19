@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "nms\\naming": "src/"
+            "nms\\naming\\": "src/"
         }
     }
 }
