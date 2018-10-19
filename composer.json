@@ -1,0 +1,17 @@
+{
+    "name": "nms/naming",
+    "description": "Wuala",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "feng",
+            "email": "fxfoo2@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nms\\naming": "src/"
+        }
+    }
+}
